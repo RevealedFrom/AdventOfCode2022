@@ -24,7 +24,7 @@ fs.readFile("./inputs/day10.txt", "utf8").
     pixels.forEach(row =>  console.log(row.join(""))) // GKGRKGRK
   });
 
-  let pixels = [...Array(6)].map(() => Array(40).fill("."));
+  let pixels = [...Array(6)].map(() => Array(40).fill(" "));
 
   const draw = (cycle, x, line, cmd, b) => {
     cycle--;
