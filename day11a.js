@@ -1,8 +1,6 @@
-const { receiveMessageOnPort } = require("worker_threads");
-
 const fs = require("fs").promises;
 
-fs.readFile("./inputs/day11s.txt", "utf8").
+fs.readFile("./inputs/day11.txt", "utf8").
   then(data => {
     data = data.split("\n")
 
