@@ -20,7 +20,7 @@ fs.readFile("./inputs/day21.txt", "utf8").
     });
 
     let answer = evaluate("root");
-    console.log("Answwer", answer);
+    console.log("Answwer", answer); // 31017034894002
   });
 
 const evaluate = (monkey) => {
